@@ -5,17 +5,22 @@ How to install rEFIND on macOS.
 Download the latest release.
 
 2nd step:
-Unzip it and copy to an usb stick or you can manually create a partition, with 8GB, and paste to there.
-IMPORTANT: Remeber the name you selected to the usb stick or partition. I will use "REFLASH".
+Unzip it and copy to an usb stick or you can manually create a partition, with atleast 2GB, and paste to there.
+IMPORTANT: You need to remember the name you selected to the usb stick or partition. I will use "REFLASH".
 
 3rd step:
 Boot the system to recovery mode.
+On Intel: Command+R
+On ARM: Hold the power button until you see the options menu appear.
 
 4th step:
-Open utilities and then terminal.
+Select your user and enter the password. 
+Once you are in macOS Utilities, press ⇧+⌘+T; you will land in the Terminal.
+
+ALTERNATIVE: In the menu bar, go to Utilities>Terminal.
 
 5th step:
-Type one at a time.
+Type this one at a time:
 
 ```
 cd /
@@ -29,8 +34,6 @@ ls
 ./refind-install
 ```
 
-  
-
 6th step:
-Reboot.
+Reboot and you should see rEFInd.
 
