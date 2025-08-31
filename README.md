@@ -9,8 +9,8 @@ Unzip it and copy to an usb stick or you can manually create a partition, with a
 IMPORTANT: You need to remember the name you selected to the usb stick or partition. I will use "REFLASH".
 
 3rd step:
-Boot the system to recovery mode.
-On Intel: Command+R
+Boot the system to recovery mode. <br>
+On Intel: Command+R <br>
 On ARM: Hold the power button until you see the options menu appear.
 
 4th step:
