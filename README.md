@@ -2,7 +2,7 @@
 How to install rEFIND on macOS.
 
 1st step:
-Download the latest release.
+Download at [https://sourceforge.net/projects/refind/files/0.14.2/refind-bin-0.14.2.zip/download](https://sourceforge.net/projects/refind/files/0.14.2/refind-bin-0.14.2.zip/download)
 
 2nd step:
 Unzip it and copy to an usb stick or you can manually create a partition, with atleast 2GB, and paste to there.
